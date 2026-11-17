@@ -1,6 +1,9 @@
 """Behavioral tests of timing, selection, preservation and safe failure."""
 import importlib.util
 import json
+import os
+import subprocess
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -131,6 +134,13 @@ class AnimationTests(unittest.TestCase):
         for plan in ([], {'version': 1, 'slides': [None]},
                      {'version': 1, 'slides': [{'slide': 1, 'units': [None]}]}):
             with self.assertRaises(ValueError): m.validate_plan(plan, 2)
+
+    def test_cli_outputs_utf8_under_legacy_windows_encoding(self):
+        result = subprocess.run([sys.executable, str(SCRIPT), 'inspect', str(self.src)],
+            capture_output=True, env={**os.environ, 'PYTHONIOENCODING': 'cp1252'})
+        self.assertEqual(result.returncode, 0, result.stderr.decode('utf8'))
+        parsed = json.loads(result.stdout.decode('utf8'))
+        self.assertEqual(parsed['slides'][0]['objects'][0]['text'], '完整文字')
 
 
 if __name__ == '__main__':

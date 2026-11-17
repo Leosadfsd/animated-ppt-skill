@@ -276,6 +276,10 @@ def apply(source, plan_path, output, replace=False):
 
 
 def main():
+    # Windows redirected stdout can default to a legacy codepage. JSON is UTF-8.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, 'reconfigure'):
+            stream.reconfigure(encoding='utf-8')
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
     check = sub.add_parser('inspect', help='List exported names and validate timing references')
