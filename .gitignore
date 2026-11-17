@@ -5,6 +5,7 @@ build/
 dist/
 *.pptx
 !examples/walking/output/Walking_Animated_Demo.pptx
+!examples/collage/output/Walking_Collage_Animated_v02.pptx
 *.zip
 .DS_Store
 ~$*

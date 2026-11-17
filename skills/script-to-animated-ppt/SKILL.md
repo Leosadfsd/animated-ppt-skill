@@ -13,6 +13,8 @@ Read the full manuscript and supplied references. Preserve its language, claims,
 
 Build a concise storyboard: slide purpose, exact manuscript passage, visible keywords, complete visual units and click cues. Keep the full narration in speaker notes, with external image/fact sources. Slides are prompts for the speaker, not copies of the script. Choose visual density and imagery to suit the actual subject; collage is an option, not a default requirement.
 
+For a new text/image deck, prefer the bundled scene workflow in [scene-format.md](references/scene-format.md): detect the current environment, write a portable scene JSON, then build the editable deck, native groups, animation plan and offline click gallery in one command. Each unit's `cue` connects its screen state to the manuscript. This reduces repeated handwritten authoring code. Use the presentation-authoring tool directly for unsupported charts/tables or user templates; do not simplify required content to fit the scene schema.
+
 Read [authoring.md](references/authoring.md) before generating the deck. Use an installed presentation skill if available, following its rendering and authoring requirements. On a Codex host without it, use a supported local authoring library and discover dependencies rather than copying machine-specific paths. Report a missing authoring capability honestly; never return a renamed static deck as animated.
 
 ## Animation plan and execution
@@ -36,6 +38,8 @@ Read [motion-format.md](references/motion-format.md) for the schema and limits. 
 ## Verify and hand off
 
 First test a representative multi-click slide before scaling a complex deck. This is a production checkpoint, not a mandatory extra permission request. Render and inspect final layouts and every isolated moving asset. Check initial visibility, click order and complete units before, during and after motion. Observe the ending after its last animation settles. Distinguish ordinary clipping at the screen edge mid-flight from damaged source assets.
+
+For scene builds, use the generated `index.html` and `click-guide.md` to inspect cumulative screen states and speaking cues before UI testing. They are static previews, not evidence of motion or timing. The generated `environment.json` can contain local paths; do not publish it with a shared example.
 
 Open the saved output in the target WPS/PowerPoint when an authorized UI tool is available. Reopen the same file and retest a complex slide. XML timing and PNG renders are structural/static evidence only. If playback cannot be inspected, deliver the useful draft but explicitly label playback unverified and provide exact click cues. Do not claim compatibility or user acceptance without evidence.
 

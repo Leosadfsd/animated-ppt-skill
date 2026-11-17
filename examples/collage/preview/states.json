@@ -1,0 +1,136 @@
+[
+  {
+    "slide": 1,
+    "title": "十分钟的空白",
+    "beat": 0,
+    "file": "previews/p1-beat0.png",
+    "cue": "我曾经把一天排得很满。\n走到地铁的路上也在回消息，吃完饭就接着看屏幕。",
+    "entering": [
+      "title",
+      "walker"
+    ],
+    "visible": [
+      "title",
+      "walker"
+    ]
+  },
+  {
+    "slide": 1,
+    "title": "十分钟的空白",
+    "beat": 1,
+    "file": "previews/p1-beat1.png",
+    "cue": "后来，我想试着给自己留十分钟。",
+    "entering": [
+      "ten-minutes"
+    ],
+    "visible": [
+      "title",
+      "walker",
+      "ten-minutes"
+    ]
+  },
+  {
+    "slide": 1,
+    "title": "十分钟的空白",
+    "beat": 2,
+    "file": "previews/p1-beat2.png",
+    "cue": "没有任务，也不追求走多远，只是出门走一走。",
+    "entering": [
+      "no-task"
+    ],
+    "visible": [
+      "title",
+      "walker",
+      "ten-minutes",
+      "no-task"
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "一条熟悉的路",
+    "beat": 0,
+    "file": "previews/p2-beat0.png",
+    "cue": "我选了一条离家很近的路。",
+    "entering": [
+      "title",
+      "photo"
+    ],
+    "visible": [
+      "title",
+      "photo"
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "一条熟悉的路",
+    "beat": 1,
+    "file": "previews/p2-beat1.png",
+    "cue": "第一天，我看见路边一棵树。",
+    "entering": [
+      "tree-label"
+    ],
+    "visible": [
+      "title",
+      "photo",
+      "tree-label"
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "一条熟悉的路",
+    "beat": 2,
+    "file": "previews/p2-beat2.png",
+    "cue": "第二天，我注意到同一扇窗透出的灯光。路线没有变，我看到的东西却多了一点。我开始把注意力从手机收回来。",
+    "entering": [
+      "light-label"
+    ],
+    "visible": [
+      "title",
+      "photo",
+      "tree-label",
+      "light-label"
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "把时间留给自己",
+    "beat": 0,
+    "file": "previews/p3-beat0.png",
+    "cue": "这个小尝试没有替我解决所有问题。有些日子，我仍然很忙，也不想出门。",
+    "entering": [
+      "title"
+    ],
+    "visible": [
+      "title"
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "把时间留给自己",
+    "beat": 1,
+    "file": "previews/p3-beat1.png",
+    "cue": "我想保留的，是可以暂时停下来的选择。今天的散步没有成绩。",
+    "entering": [
+      "no-score"
+    ],
+    "visible": [
+      "title",
+      "no-score"
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "把时间留给自己",
+    "beat": 2,
+    "file": "previews/p3-beat2.png",
+    "cue": "走回来就很好。",
+    "entering": [
+      "ending"
+    ],
+    "visible": [
+      "title",
+      "no-score",
+      "ending"
+    ]
+  }
+]

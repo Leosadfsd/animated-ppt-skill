@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "title": "给散步留一点时间 · 拼贴示例",
+  "width": 1280,
+  "height": 720,
+  "font": "Microsoft YaHei",
+  "background": "#F5F1E8",
+  "color": "#183C34",
+  "slides": [
+    {
+      "title": "十分钟的空白",
+      "notes": "我曾经把一天排得很满。走到地铁的路上也在回消息，吃完饭就接着看屏幕。后来，我想试着给自己留十分钟。没有任务，也不追求走多远，只是出门走一走。",
+      "sources": ["原创示例讲稿：../walking/manuscript.md", "人物和纸张为 AI 生成插画素材，见 assets/sources.md，不代表真实人物。"],
+      "units": [
+        {"name": "title", "beat": 0, "from": "top", "cue": "我曾经把一天排得很满。", "elements": [
+          {"type": "text", "text": "给散步\n留一点时间", "frame": [550, 90, 650, 185], "size": 62, "bold": true}
+        ]},
+        {"name": "walker", "beat": 0, "from": "left", "delay_ms": 220, "cue": "走到地铁的路上也在回消息，吃完饭就接着看屏幕。", "elements": [
+          {"type": "image", "src": "assets/walker.png", "frame": [45, 35, 440, 650]}
+        ]},
+        {"name": "ten-minutes", "beat": 1, "from": "right", "cue": "后来，我想试着给自己留十分钟。", "elements": [
+          {"type": "image", "src": "assets/paper.png", "frame": [535, 300, 670, 215]},
+          {"type": "text", "text": "十分钟", "frame": [605, 345, 530, 105], "size": 88, "bold": true, "align": "center"}
+        ]},
+        {"name": "no-task", "beat": 2, "from": "bottom", "cue": "没有任务，也不追求走多远，只是出门走一走。", "elements": [
+          {"type": "text", "text": "没有任务，也不追求走多远", "frame": [550, 555, 660, 72], "size": 38, "color": "#AE4B27"}
+        ]}
+      ]
+    },
+    {
+      "title": "一条熟悉的路",
+      "notes": "我选了一条离家很近的路。第一天，我看见路边一棵树。第二天，我注意到同一扇窗透出的灯光。路线没有变，我看到的东西却多了一点。我开始把注意力从手机收回来。",
+      "sources": ["原创示例讲稿：../walking/manuscript.md", "街景为 AI 生成的示意图，不是实际地点拍摄，见 assets/sources.md。"],
+      "units": [
+        {"name": "title", "beat": 0, "from": "top", "cue": "我选了一条离家很近的路。", "elements": [
+          {"type": "text", "text": "一条熟悉的路", "frame": [75, 65, 1000, 90], "size": 60, "bold": true}
+        ]},
+        {"name": "photo", "beat": 0, "from": "left", "delay_ms": 180, "elements": [
+          {"type": "image", "src": "assets/path-photo.png", "frame": [60, 180, 705, 500], "fit": "contain", "rotation": -2}
+        ]},
+        {"name": "tree-label", "beat": 1, "from": "right", "cue": "第一天，我看见路边一棵树。", "elements": [
+          {"type": "image", "src": "assets/paper.png", "frame": [805, 235, 395, 150]},
+          {"type": "text", "text": "路边的树", "frame": [850, 275, 305, 62], "size": 43, "bold": true, "align": "center"}
+        ]},
+        {"name": "light-label", "beat": 2, "from": "bottom", "cue": "第二天，我注意到同一扇窗透出的灯光。路线没有变，我看到的东西却多了一点。我开始把注意力从手机收回来。", "elements": [
+          {"type": "image", "src": "assets/paper.png", "frame": [805, 440, 395, 150]},
+          {"type": "text", "text": "窗里的灯光", "frame": [840, 480, 325, 62], "size": 41, "bold": true, "align": "center", "color": "#AE4B27"}
+        ]}
+      ]
+    },
+    {
+      "title": "把时间留给自己",
+      "notes": "这个小尝试没有替我解决所有问题。有些日子，我仍然很忙，也不想出门。我想保留的，是可以暂时停下来的选择。今天的散步没有成绩，走回来就很好。",
+      "sources": ["原创示例讲稿：../walking/manuscript.md", "纸张为 AI 生成素材，见 assets/sources.md。"],
+      "units": [
+        {"name": "title", "beat": 0, "from": "top", "cue": "这个小尝试没有替我解决所有问题。有些日子，我仍然很忙，也不想出门。", "elements": [
+          {"type": "text", "text": "把时间留给自己", "frame": [95, 80, 1100, 95], "size": 60, "bold": true}
+        ]},
+        {"name": "no-score", "beat": 1, "from": "left", "cue": "我想保留的，是可以暂时停下来的选择。今天的散步没有成绩。", "elements": [
+          {"type": "text", "text": "不追求成绩", "frame": [180, 230, 930, 110], "size": 72, "bold": true, "color": "#AE4B27"}
+        ]},
+        {"name": "ending", "beat": 2, "from": "bottom", "cue": "走回来就很好。", "elements": [
+          {"type": "image", "src": "assets/paper.png", "frame": [135, 375, 1030, 250]},
+          {"type": "text", "text": "走回来就很好", "frame": [220, 430, 860, 105], "size": 82, "bold": true, "align": "center"}
+        ]}
+      ]
+    }
+  ]
+}
