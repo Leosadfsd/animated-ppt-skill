@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "slides": [
+    {
+      "slide": 1,
+      "units": [
+        {
+          "name": "title",
+          "beat": 0,
+          "from": "top",
+          "delay_ms": 0,
+          "duration_ms": 750
+        },
+        {
+          "name": "main",
+          "beat": 1,
+          "from": "left",
+          "delay_ms": 0,
+          "duration_ms": 850
+        },
+        {
+          "name": "cue",
+          "beat": 2,
+          "from": "bottom",
+          "delay_ms": 0,
+          "duration_ms": 750
+        }
+      ]
+    },
+    {
+      "slide": 2,
+      "units": [
+        {
+          "name": "title",
+          "beat": 0,
+          "from": "top",
+          "delay_ms": 0,
+          "duration_ms": 750
+        },
+        {
+          "name": "main",
+          "beat": 1,
+          "from": "right",
+          "delay_ms": 0,
+          "duration_ms": 850
+        },
+        {
+          "name": "cue",
+          "beat": 2,
+          "from": "bottom",
+          "delay_ms": 0,
+          "duration_ms": 750
+        }
+      ]
+    },
+    {
+      "slide": 3,
+      "units": [
+        {
+          "name": "title",
+          "beat": 0,
+          "from": "top",
+          "delay_ms": 0,
+          "duration_ms": 750
+        },
+        {
+          "name": "main",
+          "beat": 1,
+          "from": "left",
+          "delay_ms": 0,
+          "duration_ms": 850
+        },
+        {
+          "name": "cue",
+          "beat": 2,
+          "from": "bottom",
+          "delay_ms": 0,
+          "duration_ms": 750
+        }
+      ]
+    }
+  ]
+}

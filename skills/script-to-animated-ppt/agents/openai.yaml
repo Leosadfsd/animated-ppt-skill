@@ -1,0 +1,4 @@
+interface:
+  display_name: "讲稿转动画 PPT"
+  short_description: "按讲稿设计可编辑、分步点击的原生动画演示文稿"
+  default_prompt: "使用 $script-to-animated-ppt 按我的讲稿制作动画 PPT，保留叙事顺序和结尾，并说明实际播放验证范围。"

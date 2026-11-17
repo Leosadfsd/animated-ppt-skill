@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.pptx
+!examples/walking/output/Walking_Animated_Demo.pptx
+*.zip
+.DS_Store
+~$*
